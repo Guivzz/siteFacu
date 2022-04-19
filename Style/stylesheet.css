@@ -1,0 +1,99 @@
+/* fonte */
+.grenze {
+  font-family: 'Grenze Gotisch', cursive;
+  font-size: x-large;
+}
+
+/* background */
+.bg-inteiro {
+  background-size: cover;
+  min-height: 100vh;
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  display: block;
+  width: 100vw;
+}
+
+/* Hover do texto */
+.text-cor {
+  text-decoration: dashed;
+  color: #FCF7A5;
+}
+
+ul li .text-cor:hover {
+  color: rgb(175, 150, 40);
+}
+
+.text-cor2 {
+  text-decoration: dashed;
+  color: #FCF7A5;
+}
+
+.text-cor2:hover {
+  color: rgb(175, 150, 40);
+}
+
+/* Centro do site */
+
+.siteCentral {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 30vh;
+  margin-right: 30vh;
+  border: 1px solid black;
+  height: 80%;
+  width: 80%;
+}
+
+.parteCentral {
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.mt-7 {
+  padding-top: 15vh;
+}
+
+.pb-6 {
+  padding-bottom: 6vh;
+}
+
+.endContainer {
+  height: 6vh;
+  width: 100vw;
+}
+
+.bolc {
+  outline-offset: 10px;
+}
+
+.teste {
+  position: absolute;
+  width: 330.48px;
+  height: 46.8px;
+
+  font-family: 'Grenze Gotisch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 63px;
+  line-height: 81%;
+  /* or 81% */
+  text-align: center;
+
+  color: #FCF7A5;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Pergaminho */
+.imgcntl {
+  position: absolute;
+  width: 18vw;
+  height: 30vh;
+  ;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
