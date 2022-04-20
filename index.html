@@ -1,101 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./Style/stylesheet.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./Style/stylesheet.css">
+    <title>Document</title>
+  </head>
 
-  <title>Document</title>
-</head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&display=swap");
+  </style>
+  <!---------------------------------------------------------------------------------------------------------------------->
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&display=swap');
-</style>
-<!---------------------------------------------------------------------------------------------------------------------->
+  <body>
+    <div
+      class="bg-inteiro"
+      style="
+        background-image: url(./Imagens/teste\ 2.png.opdownload);
+        background-repeat: no-repeat;
+      "
+    >
+      <!--Background-->
 
-<body>
-  <div class="bg-inteiro"
-    style="background-image: url(./Imagens/teste\ 2.png.opdownload); background-repeat: no-repeat;">
-    <!--Background-->
+      <nav
+        class="navbar navbar-expand-lg navbar-dark"
+        style="background-color: #000000b2"
+      >
+        <!--Barra de navegação-->
 
+        <div class="container-fluid grenze">
+          <div class="d-flex justify-content-start">
+            <a class="nav-link" style="margin-top: 2%" href="#">
+              <img src="./Imagens/pergaminho3.png" height="60px" width="60px" />
+              <span class="text-cor h2">Gaming Scroll</span>
+            </a>
+          </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #000000b2;">
-      <!--Barra de navegação-->
-
-
-      <div class=" container-fluid grenze ">
-        <div class="d-flex justify-content-start ">
-          <a class="nav-link" style="margin-top: 2%" href="#">
-            <img src="./Imagens/pergaminho3.png" height="60px" width="60px">
-            <span class="text-cor h2">Gaming Scroll</span>
-          </a>
+          <div class="d-flex justify-content-between">
+            <ul class="navbar-nav h3">
+              <li class="nav-item active">
+                <a class="nav-link me-lg-3 text-cor" href="#">
+                  <span class="sr-only text-cor">Home</span></a
+                >
+              </li>
+              <li class="nav-item me-lg-3">
+                <a class="nav-link" href="#"
+                  ><span class="text-cor"> Link</span></a
+                >
+              </li>
+              <li class="nav-item me-lg-3">
+                <a class="nav-link" href="#"
+                  ><span class="text-cor"> Site</span></a
+                >
+              </li>
+              <li class="nav-item me-lg-3">
+                <a class="nav-link" href="#"
+                  ><span class="text-cor"> Seila</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--Navegação central-->
+          <div>
+            <a class="navbar-brand" style="margin-left: 25vh" href="#"
+              ><span class="text-cor2 h3"> Login</span></a
+            >
+          </div>
+          <!--Login do site-->
         </div>
+      </nav>
 
-        <!--Logo do site-->
+      <!--Centro da Página-->
 
-        <div class=" d-flex justify-content-between">
-          <ul class="navbar-nav h3 ">
-            <li class="nav-item active">
-              <a class="nav-link me-lg-3 text-cor" href="#"> <span class="sr-only text-cor">Home</span></a>
-            </li>
-            <li class="nav-item me-lg-3">
-              <a class="nav-link" href="#"><span class="text-cor"> Link</span></a>
-            </li>
-            <li class="nav-item me-lg-3">
-              <a class="nav-link" href="#"><span class="text-cor"> Site</span></a>
-            </li>
-            <li class="nav-item me-lg-3">
-              <a class="nav-link" href="#"><span class="text-cor"> Seila</span></a>
-            </li>
-          </ul>
+      <main>
+        <div class="logo-nome flex">
+          <div class="flex">
+            <img class="pergaminho" src="./Imagens/pergaminho3.png" />
+          </div>
         </div>
-        <!--Navegação central-->
-        <div>
-          <a class="navbar-brand" style="margin-left: 25vh" href="#"><span class="text-cor2 h3"> Login</span></a>
-        </div>
-        <!--Login do site-->
-      </div>
-    </nav>
-    <!---------------------------------------------------------------------------------------------------------------------->
-
-    <main class="siteCentral container">
-
-      <div class="row justify-content-md-center mt-7 pb-6">
-        <!--<img class="col-md-auto  " style="height: auto; width:35%; " src="./Imagens/teste1.png"> -->
-        <img class="imgcntl" src="./Imagens/pergaminho3.png">
-        <span class="teste">Gaming Scroll</span>
-      </div>
-      <div>
-        <button type="button" class="btn  btn-rounded btn-lg" style="border-radius:30%;">Dark</button>
-
-      </div>
-    </main>
-
-    <!--  <div class="container-fluid fixed-bottom">
-      <div class="d-flex justify-content-center">
-        <div class="justify-content-md-start">
-          <ul>
-            <li>
-              teste
-            </li>
-          </ul>
-        </div>
-        <div class="justify-content-center">Column</div>
-        <div class="col">Column</div>
-      </div>-->
-  </div>
-  </div>
-
-
-
-
-
-
-
-  </div>
-</body>
-
+      </main>
+    </div>
+  </body>
 </html>

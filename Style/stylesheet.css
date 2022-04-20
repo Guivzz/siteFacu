@@ -1,6 +1,6 @@
 /* fonte */
 .grenze {
-  font-family: 'Grenze Gotisch', cursive;
+  font-family: "Grenze Gotisch", cursive;
   font-size: x-large;
 }
 
@@ -18,7 +18,7 @@
 /* Hover do texto */
 .text-cor {
   text-decoration: dashed;
-  color: #FCF7A5;
+  color: #fcf7a5;
 }
 
 ul li .text-cor:hover {
@@ -27,7 +27,7 @@ ul li .text-cor:hover {
 
 .text-cor2 {
   text-decoration: dashed;
-  color: #FCF7A5;
+  color: #fcf7a5;
 }
 
 .text-cor2:hover {
@@ -37,20 +37,13 @@ ul li .text-cor:hover {
 /* Centro do site */
 
 .siteCentral {
-  margin-top: 2vh;
-  margin-bottom: 2vh;
-  margin-left: 30vh;
-  margin-right: 30vh;
   border: 1px solid black;
-  height: 80%;
-  width: 80%;
 }
 
 .parteCentral {
   align-content: center;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .mt-7 {
@@ -70,30 +63,23 @@ ul li .text-cor:hover {
   outline-offset: 10px;
 }
 
-.teste {
-  position: absolute;
-  width: 330.48px;
-  height: 46.8px;
+/* Logo e Centro do Site 
+( da pra fazer tudo aqui só que vai ter que usar FlexBox ) 
+( adiciona a classe flex em tudo no html que for no centro ) */
 
-  font-family: 'Grenze Gotisch';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 63px;
-  line-height: 81%;
-  /* or 81% */
-  text-align: center;
-
-  color: #FCF7A5;
-
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+.flex {
+  display: flex;
 }
 
-/* Pergaminho */
-.imgcntl {
-  position: absolute;
-  width: 18vw;
-  height: 30vh;
-  ;
+.logo-nome {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
 
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.pergaminho {
+  max-width: 300px;
 }
